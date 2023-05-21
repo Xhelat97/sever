@@ -1,0 +1,26 @@
+.user{
+    display: flex;
+    align-items:center;
+    &__avatar{
+        display: block;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        object-fit: cover;
+        object-position: center;
+        margin-right: 10px;
+    }
+    &__name{
+        font-family: 'Rubik',sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: #232323;
+    }
+}
+@media (max-width: 360px){
+    .user{
+        display: none;
+    }
+}

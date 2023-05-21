@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="./src/styles/css/style.min.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Rubik&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <header class="header">
+            <div class="container">
+                <nav class="header__nav">
+                    <div class="header__logo logo">
+                        <img
+                            src="./src/img/icons/logo.svg"
+                            alt=""
+                            class="logo__image_picture"
+                        />
+                        <img
+                            src="./src/img/icons/logo_text.svg"
+                            alt=""
+                            class="logo__image_text"
+                        />
+                    </div>
+                    <button class="header__catalog header-btn btn">
+                        <div class="header-btn__lines">
+                            <div class="header-btn__line"></div>
+                            <div class="header-btn__line"></div>
+                            <div class="header-btn__line"></div>
+                        </div>
+                        <span class="header-btn__text">Каталог</span>
+                    </button>
+                    <label class="header__search search">
+                        <input
+                            type="text"
+                            placeholder="Найти товар"
+                            class="search__input"
+                            maxlength="68"
+                        />
+                        <img
+                            src="./src/img/icons/search.svg"
+                            alt=""
+                            class="search__icon"
+                        />
+                    </label>
+                    <div class="header__pages pages">
+                        <a href="" class="pages__link link">
+                            <img
+                                src="./src/img/icons/fav.svg"
+                                alt=""
+                                class="link__icon link__icon_fav"
+                            />
+                            <span class="link__text">Избранное</span>
+                        </a>
+                        <a href="" class="pages__link link">
+                            <img
+                                src="./src/img/icons/orders.svg"
+                                alt=""
+                                class="link__icon link__icon_orders"
+                            />
+                            <span class="link__text">Заказы</span>
+                        </a>
+                        <a href="" class="pages__link link">
+                            <img
+                                src="./src/img/icons/crate.svg"
+                                alt=""
+                                class="link__icon link__icon_crate"
+                            />
+                            <span class="link__text">Корзина</span>
+                        </a>
+                    </div>
+                    <a href="#" class="header__user user">
+                        <img
+                            srcset="
+                                ./src/img/users/avatar.webp    1x,
+                                ./src/img/users/avatar_2x.webp 2x
+                            "
+                            alt=""
+                            class="user__avatar"
+                        />
+                        <span class="user__name">Алексей</span>
+                    </a>
+                </nav>
+            </div>
+        </header>
+        <main class="main">
+            <section class="banner">
+                <img
+                    src="./src/img/banner/food.png"
+                    alt=""
+                    class="banner__img"
+                />
+                <h1 class="banner__title">Доставка бесплатно от 1000 ₽</h1>
+            </section>
+        </main>
+    </body>
+</html>
